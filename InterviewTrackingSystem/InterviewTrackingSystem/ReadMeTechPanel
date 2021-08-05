@@ -1,0 +1,31 @@
+{{{ VIEW ALL CANDIDATES }}}
+
+//view all candidates from database through postman
+
+http://localhost:9090/project-api/tech/viewCandidates    --->controller link
+
+-------------------------------------------------------------------------------------------------
+{{{ VIEW PANEL_MEMBER BY ID }}}
+
+//view panel_member by id from database through postman
+
+http://localhost:9090/project-api/tech/searchByPanelId/1    --->controller link
+
+----------------------------------------------------------------------------------------------
+{{{ VIEW CANDIDATE BY ID }}}
+
+//view candidates by id
+
+http://localhost:9090/project-api/tech/searchById/1 	--->controller link
+---------------------------------------------------------------------------------------------
+{{{ VIEW PANEEL MEMBERS BY TYPE }}}
+
+//view panel_members by type from database through postman
+
+http://localhost:9090/project-api/tech/searchPanelMemberByType/TECH   --->controller link
+----------------------------------------------------------------------------------------------
+{{{ UPDATE TECH_RATING OF CANDIDATE BY INTERVIEW_SCHEDULE }}}
+
+//update tech_rating of candidate by interview schedule in database through postman   
+
+http://localhost:9090/project-api/tech/updateById/1/selected   ------->controller link
